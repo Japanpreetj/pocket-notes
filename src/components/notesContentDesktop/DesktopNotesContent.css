@@ -1,0 +1,36 @@
+.desk_notes{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F7ECDC;
+    height:auto;
+    width:75vw;
+}
+
+.desk_notes_dt{
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    background-color: #F7ECDC;
+    align-items: center;
+    min-height:15vh;
+    width:15vw;  
+}
+
+.desktop_notes_date{
+    margin:1vh;
+    font-size:1rem;
+    font-weight:500;
+}
+
+.desktop_notes_time{
+    margin:0 1vh 0 1vh;
+    font-weight:500;
+}
+
+.desktop_notes_details{
+    text-align: left;
+    height:auto;
+    width:50vw;
+    margin:5vh 2vh 0 0;
+}

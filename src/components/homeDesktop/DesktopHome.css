@@ -1,0 +1,36 @@
+.home_desktop{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:75vw;
+    height:100vh;
+    background-color:#F7ECDC;
+    padding: 1rem;
+    gap:1rem;
+}
+
+.home_desktop > img {
+    margin-top:25vh;
+    width:35vw;
+    height:35vh;
+}
+
+.home_desktop > h1,p {
+    margin:0;
+    font-weight:500;
+}
+
+.desk_home{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-weight:600;
+    gap:0.5rem;
+    margin-top:10vh;
+    font-size:1rem;
+}
+
+.desk_home_home > img{
+    width: 1.2vw;
+    height:1.2vw;
+}

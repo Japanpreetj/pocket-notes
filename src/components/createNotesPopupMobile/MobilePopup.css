@@ -1,0 +1,125 @@
+.mob_popup{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    position:fixed;
+    top:50%;
+    left:50%;
+    background-color: white;
+    height:40vh;
+    width:90vw;
+    padding:2vh;
+    align-items: center;
+    z-index:9999;
+    transform:translate(-50%,-50%);
+}
+
+.mob_title{
+    text-align:left;
+    margin-left:5vw;
+    font-weight:700;
+    height:5vh;
+    width:90vw;
+    margin-left: 5vw;
+}
+
+.mobile_input{
+    display:flex;
+    justify-content: center;
+    margin: 1vh 1vh 1vh 1vh;
+    height:10vh;
+    width:100%;
+    font-weight:600;
+    gap:2vw;
+}
+
+.mob_input > input{
+    border: 2px solid grey;
+    border-radius: 6vh;
+    padding: 0.5rem;
+    font-size: 2vh;
+    font-weight: 600;
+    width:60vw;
+    height:5vh;
+}
+
+.mob_color_input{
+    height:6vh;
+    width:100%;
+    gap:3vw;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+}
+
+.mob_color_input > span{
+    font-size:large;
+    font-weight:700;
+}
+
+.mob_color_input_color{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:3vw;
+}
+
+.mob_color_input_color_1,
+.mob_color_input_color_2,
+.mob_color_input_color_3,
+.mob_color_input_color_4,
+.mob_color_input_color_5,
+.mob_color_input_color_6 {
+    border:none;
+    background-color: black;
+    cursor:pointer;
+    border-radius:50%;
+    height:5vw;
+    width:5vw;
+}
+
+.mob_color_input_color_1{
+    background-color: #B38BFA;
+}
+
+.mob_color_input_color_2{
+    background-color: #FF79F2;
+}
+
+.mob_color_input_color_3{
+    background-color: #43E6FC;
+}
+
+.mob_color_input_color_4{
+    background-color: #F19576;
+}
+
+.mob_color_input_color_5{
+    background-color: #0047FF;
+}
+
+.mob_color_input_color_6{
+    background-color: #6691FF;
+}
+
+.mob_close{
+    display:flex;
+    justify-content: flex-end;
+    margin: 1vh 1vh 1vh 1vh;
+    height:5vh;
+    width:85vw;
+}
+
+.mob_close > button{
+    background-color: black;
+    border:none;
+    border-radius: 5vh;
+    font-weight: 500;
+    height:5vh;
+    width:25vw;
+}
+
+.highlight{
+    border: 2px solid black;
+    border-radius: 6vh;
+}
